@@ -1,0 +1,104 @@
+div.pp_juno .pp_top,
+	div.pp_juno .pp_top .pp_middle,
+	div.pp_juno .pp_top .pp_left,
+	div.pp_juno .pp_top .pp_right,
+	div.pp_juno .pp_bottom,
+	div.pp_juno .pp_bottom .pp_left,
+	div.pp_juno .pp_bottom .pp_middle,
+	div.pp_juno .pp_bottom .pp_right { height: 0px; }
+	
+	div.pp_juno .pp_top .pp_left { } /* Top left corner */
+	div.pp_juno .pp_top .pp_middle { } /* Top pattern/color */
+	div.pp_juno .pp_top .pp_right { } /* Top right corner */
+	
+	div.pp_juno .pp_content .ppt { color: #f8f8f8; }
+	div.pp_juno .pp_content_container .pp_left {  padding-left: 0px; }
+	div.pp_juno .pp_content_container .pp_right { padding-right: 0px; }
+	
+	div.pp_juno .pp_content { /* Content background */ 
+		/*background-color: #fff; */
+		background: rgb(255,255,255);
+		background: rgba(255,255,255,0.8)
+		} 
+		
+	div.pp_juno .pp_next:hover { /* Next button */
+		background: url(../images/prettyPhoto/default/sprite_next.png) center right  no-repeat; 
+		cursor: pointer;
+		}
+		
+	div.pp_juno .pp_previous:hover { /* Previous button */
+		background: url(../images/prettyPhoto/default/sprite_prev.png) center left no-repeat; 
+		cursor: pointer;
+		} 
+	
+	div.pp_juno .pp_expand { /* Expand button */
+		background: url(../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat; 
+		cursor: pointer; 
+		width: 28px;
+		height: 28px;
+		} 
+	
+	div.pp_juno .pp_expand:hover { /* Expand button hover */
+		background: url(../images/prettyPhoto/default/sprite.png) 0 -56px no-repeat; 
+		cursor: pointer; 
+		}
+	
+	div.pp_juno .pp_contract { /* Contract button */
+		background: url(../images/prettyPhoto/default/sprite.png) 0 -84px no-repeat; 
+		cursor: pointer; 
+		width: 28px; 
+		height: 28px; 
+		}
+		 
+	div.pp_juno .pp_contract:hover { /* Contract button hover */ 
+		background: url(../images/prettyPhoto/default/sprite.png) 0 -113px no-repeat; 
+		cursor: pointer; 
+		}
+		 
+	div.pp_juno .pp_close { /* Close button */ 
+		width: 30px; 
+		height: 30px; 
+		background: url(../images/prettyPhoto/default/sprite.png) 2px 1px no-repeat; 
+		cursor: pointer;
+		margin-right: 5px;
+		}
+
+	div.pp_juno #pp_full_res .pp_inline { color: #000; } 
+	div.pp_juno .pp_gallery ul li a { background: url(../images/prettyPhoto/default/default_thumb.png) center center #f8f8f8; border:1px solid #aaa; }
+	div.pp_juno .pp_gallery ul li a:hover,
+	div.pp_juno .pp_gallery ul li.selected a { border-color: #fff; }
+	div.pp_juno .pp_social { margin-top: 7px; }
+
+	div.pp_juno .pp_gallery a.pp_arrow_previous,
+	div.pp_juno .pp_gallery a.pp_arrow_next { position: static; left: auto; }
+	div.pp_juno .pp_nav .pp_play,
+	div.pp_juno .pp_nav .pp_pause { background: url(../images/prettyPhoto/default/sprite.png) -51px 1px no-repeat; height:30px; width:30px; }
+	div.pp_juno .pp_nav .pp_pause { background-position: -51px -29px; }
+	div.pp_juno .pp_details { position: relative; }
+	
+	div.pp_juno a.pp_arrow_previous,
+	div.pp_juno a.pp_arrow_next { 
+		background: url(../images/prettyPhoto/default/sprite.png) -31px -3px no-repeat; 
+		height: 20px; 
+		margin: 4px 0 20px 5px;
+		width: 20px;
+		}
+	
+	div.pp_juno a.pp_arrow_next { /* The next arrow in the bottom nav */
+		left: 52px; 
+		background-position: -82px -3px;
+		}
+		 
+	div.pp_juno .pp_content_container .pp_details { margin-top: 5px; }
+	div.pp_juno .pp_nav { clear: none; height: 30px; width: 110px; position: relative; }
+	div.pp_juno .pp_nav .currentTextHolder{ font-family: Georgia; font-style: italic; color:#999; font-size: 11px; left: 75px; line-height: 25px; margin: 0; padding: 0 0 0 10px; position: absolute; top: 2px; }
+	
+	div.pp_juno .pp_close:hover, div.pp_juno .pp_nav .pp_play:hover, div.pp_juno .pp_nav .pp_pause:hover, div.pp_juno .pp_arrow_next:hover, div.pp_juno .pp_arrow_previous:hover { opacity:0.7; }
+
+	div.pp_juno .pp_description{ font-size: 11px; font-weight: bold; line-height: 14px; margin: 5px 50px 5px 0; }
+
+	div.pp_juno .pp_bottom .pp_left { } /* Bottom left corner */
+	div.pp_juno .pp_bottom .pp_middle { } /* Bottom pattern/color */
+	div.pp_juno .pp_bottom .pp_right { } /* Bottom right corner */
+
+	div.pp_juno .pp_loaderIcon { background: url(../images/prettyPhoto/juno/loader.gif) center center no-repeat; } /* Loader icon */

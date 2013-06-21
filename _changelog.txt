@@ -1,0 +1,71 @@
+- Gmap Checkbox jQuery map slides out.
+- Padding in home page - carousel -> itens, widget -> widgets
+- Comments styling fixed
+
+TODO to version:
+
+1.0	  - Layouts fixed and global
+	  - responsive menu child itens
+	 
+
+
+
+
+
+
+0.9.2 - Added layouts to archive pages
+	  - Added author page working
+	  - Organized folders - deleted others
+	  - Added html5 tag <nav> to breadcrumbs
+	  - Organized code in Loader.php
+	  - Flickr Widget Fixed
+	  - Footer modified
+	  - Footer now has 4 widget areas
+	  - Removed Aqua Page Builder from plugins
+	  - Fixed a lot of errors from theme-check
+	  - Basic Fixes in fullscreen layout
+	  - Added carousel css to fade transitions
+	  - Masonry layout fixed! both normal & wide!
+	  - Fixed page template left sidebar
+
+0.9.1 - Added PostViews function with SMOF option to activate.
+	  - Contact shortcode now enqueues jquery-form & contact.js on pages that have the shortcode.
+	  - Shortcodes Buttons - Separators - Boxes - iFrames Lightbox, Done!
+
+0.9   - Old XLab Bootstrap
+
+
+
+//============================================================================================================
+// Old XLab Bootstrap
+
+1.0.3 - SuperSlides as page-template now works!
+	  - Fixed enqueue scripts only in template pages
+	  - Fixed metaboxes better include - (for page template add page-templates/template.php)
+	  - Added IF conditional to tags in single.php
+	  - Comments FIXED! logged-in / not logged-in
+	  - page-contact.php - added conditional if show map in metabox them show it. Disabled by default.
+
+1.0.2 - Added Contact form shortcode & to tinymce shortcode dropdown.
+	  - Added bootstrap css to contact form.
+	  - Added "Page builder" & "black-studio-tinymce-widget" plugin to 3rdparty.php
+	  - Tweaked contact shortcode. NOW IT WORKS!!! do not touch anymore!!
+	  - Tweaked fluid carousel
+	  - Added Tutorials post-type
+	  - Comments responsive DONE!
+	  - Related posts row FIXED!
+	  - Added superslides page-template
+	  
+	  
+1.0.1 - Created smof.php - we can call all the custom SMOF call from this file and SMOF will not break.
+	  - Cleaned the options folder - now we can update SMOF just by replacing all the files.
+	  - Removed xtra folder.
+	  - Created Loader.php to load all stuff.
+	  - Added some bootstrap classes to widget.gravatar.comments
+	  - New screenshot 500x450
+	  - Removed AquaPageBuilder.zip. Is on wordpress.org
+	  - Added 2 victorian images for background.
+	  - Added carousel background image option to SMOF.
+	  
+	  
+1.0 - The Fully Functional XLab Bootstrap Theme.
